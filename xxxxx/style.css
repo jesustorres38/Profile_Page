@@ -1,5 +1,5 @@
 .row{
-    /* min-height: 100vh; */
+    min-height: 100vh;
     padding-top: 10vh;
     border: 1px solid red;
 }
@@ -9,7 +9,7 @@
     height: 100%;
 }
 #info{
-    padding: 3rem;
+    padding: 2rem;
     background-color: beige;
     height: 100%;
 }
@@ -19,13 +19,18 @@
 }
 .subtitle{
     font-size: 1.2rem;
-    margin-bottom: 0;
 }
 .list-inline {
     margin: 0;
     padding: 0;
   }
-ul > li{
+.list-inline > li {
     display:inline;
-    font-size: 1rem;
+    font-size: 1.3rem;
+}
+.list-inline > li a {
+    color: black;
+}
+.list-inline > li a:hover{
+    color: rgb(80, 79, 79);
 }
