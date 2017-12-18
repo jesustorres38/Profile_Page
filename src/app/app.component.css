@@ -1,89 +1,45 @@
-body{
-    background-color: rgba(0, 0, 0, 0.02);
-}
 .row{
-    background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgba(0, 0, 0, 0.02);
 }
 #imagen{
-    background: url(../assets/back.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0);
-    height: 100vh;
-    padding: 3rem 0 1rem 0;
+  height: 100vh;
+  background: url(../assets/back.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
 #info{
-    
-    height: 100vh;
+  height: 100vh;
+  overflow-y: auto;
+}
+@media only screen and (max-width: 576px){
+  #info{
+    height: 100%;
+    overflow-y: visible; 
+  } 
+}
+h1,h3{
+  font-family: 'Saira Extra Condensed', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color:#404040;
+}
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem; 
 }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: 'Saira Extra Condensed', serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #343a40; }
-  
-  h1 {
-    font-size: 6rem;
-    line-height: 5.5rem; }
-  
-  h2 {
-    font-size: 3.5rem; }
-  
-  .subheading {
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Saira Extra Condensed', serif;
-    font-size: 1.35rem; }
-  
-  .list-social-icons a {
-    color: #495057; }
-    .list-social-icons a:hover {
-      color: #BD5D38; }
-    .list-social-icons a .fa-lg {
-      font-size: 1.75rem; }
-  
-  .list-icons {
-    font-size: 3rem; }
-    .list-icons .list-inline-item i:hover {
-      color: #BD5D38; }
-  
-  
+a{color: #65cde3;}
+a:hover{color: #0f61a0;}
 
-  
-  section.resume-section {
-    border-bottom: 1px solid #dee2e6;
-    padding-top: 5rem !important;
-    padding-bottom: 5rem !important; }
-    section.resume-section .resume-item .resume-date {
-      min-width: none; }
-  
-  @media (min-width: 768px) {
-    section.resume-section {
-      min-height: 100vh; }
-      section.resume-section .resume-item .resume-date {
-        min-width: 18rem; } }
-  
-  @media (min-width: 992px) {
-    section.resume-section {
-      padding-top: 3rem !important;
-      padding-bottom: 3rem !important; } }
-  
-  .bg-primary {
-    background-color: #BD5D38 !important; }
-  
-  .text-primary {
-    color: #BD5D38 !important; }
-  
-  a {
-    color: #BD5D38; }
-    a:hover, a:focus, a:active {
-      color: #824027; }
-  
+/* social ***** */
+.list-social-icons a {color: #404040;}
+.list-social-icons a:hover {color: #65cde3;}
+.list-social-icons a .fa-lg {font-size: 1.75rem;}
+
+/* tools ***** */
+.list-tools-icons {
+  color: #808080;
+  font-size: 2.50rem; 
+}
+.list-tools-icons i:hover {color: #65cde3;}  
