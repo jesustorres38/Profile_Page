@@ -5,7 +5,7 @@ body {
     .row{
         background-color: rgba(0, 0, 0, 0.02);
       }
-      #imagen{
+      .imagen{
         height: 100vh;
         background: url(assets/back.jpg);
         background-position: center;
@@ -13,12 +13,12 @@ body {
         background-repeat: no-repeat;
         opacity: 0.9;
       }
-      #info{
+      .info{
         height: 100vh;
         overflow-y: auto;
       }
       @media only screen and (max-width: 576px){
-        #info{
+        .info{
           height: 100%;
           overflow-y: visible; 
         } 
